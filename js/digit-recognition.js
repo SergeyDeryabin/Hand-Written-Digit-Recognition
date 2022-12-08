@@ -250,7 +250,7 @@ function loadChart(label, data, modelSelected) {
 	    data: {
 	        labels: label,
 	        datasets: [{
-	            label: modelSelected + " prediction",
+	            label: modelSelected + " prediction(СНС-предсказание)",
 	            backgroundColor: '#f50057',
 	            borderColor: 'rgb(255, 99, 132)',
 	            data: data,
