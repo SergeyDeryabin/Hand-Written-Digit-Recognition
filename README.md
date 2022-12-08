@@ -21,7 +21,7 @@ git https://github.com/bensonruan/Hand-Written-Digit-Recognition.git
 * Нажмите кнопку "Clean"("Очистить"), чтобы снова начать рисовать
 
 ## Предварительно обученная модель(Pre-trained model) 
-Используйте MNIST-набор данных(MNIST dataset) от Keras с CNN(Convolutional Neural Network; Сверточная нейронная сеть)
+Используйте MNIST-набор данных(MNIST dataset) от Keras с CNN(Convolutional Neural Network; Сверточная Нейронная Сеть;СНС)
 ```python
 model = keras.Sequential([
     keras.layers.Conv2D(32, (5, 5), padding="same", input_shape=[28, 28, 1]),
